@@ -1,26 +1,26 @@
 class Bonsai < Formula
-  desc "Your bonsai tool description"
+  desc "One command to work on another branch—separate folder, deps, and editor. No stash, no conflict."
   homepage "https://github.com/abhinavramkumar/bonsai"
-  version "0.1.2"
-  license "MIT"  # update to your actual license
+  version "0.1.12"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.2/bonsai-darwin-arm64"
-      sha256 "fb6e95689a0d43aa0dcecd31c40bde8b20ee2205f1f69863eb9c8f9d00e6ca6d"
+      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.12/bonsai-darwin-arm64"
+      sha256 "fa2b8769d082fe5479964c9039ffcb3047a528f3debee535adfb00f19cc4e094"
     else
-      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.2/bonsai-darwin-x86_64"
-      sha256 "eaec9f20de9139f5244d87fb7a560b96b6d00f40b0c1df6fab93973d2a8c85f5"
+      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.12/bonsai-darwin-x86_64"
+      sha256 "caf6c19ff6abb642103b8473a06e66cb2a5d3c7127a8f704f170bad116af9f7c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.2/bonsai-linux-arm64"
-      sha256 "f85370e31e0b7943a02408d37a122197be8fc6ea21636c26b6424b006157e0aa"
+      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.12/bonsai-linux-arm64"
+      sha256 "f6faf2b7bff18d12c5594274b71824a568c18b128effe09c6d9c2fa43cd59b1e"
     else
-      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.2/bonsai-linux-x86_64"
-      sha256 "ff32e4b7364a12cb47f7ad52d70daa3cc60240256e208d4811cf8997bd72f7eb"
+      url "https://github.com/abhinavramkumar/bonsai/releases/download/v0.1.12/bonsai-linux-x86_64"
+      sha256 "6f8e00cb51502696c7c30f09c551a42cbb74d684d66cc1854c295bfe86d44c90"
     end
   end
 
